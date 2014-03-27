@@ -1,0 +1,24 @@
+{
+  "name": "2048",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsamokovarov/2048.app"
+  },
+  "main": "index.html",
+  "version": "0.1.0",
+  "window": {
+    "title": "2048",
+    "icon": "meta/apple-touch-icon.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 540,
+    "height": 710,
+    "min_width": 540,
+    "min_height": 710,
+    "resizable": false
+  },
+  "devDependencies": {
+    "grunt": "0.4.4",
+    "grunt-node-webkit-builder": "0.1.17"
+  }
+}
