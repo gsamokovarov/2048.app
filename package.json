@@ -10,7 +10,7 @@
     "title": "2048",
     "icon": "meta/apple-touch-icon.png",
     "toolbar": false,
-    "frame": true,
+    "frame": false,
     "width": 540,
     "height": 710,
     "min_width": 540,
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "grunt": "0.4.4",
-    "grunt-node-webkit-builder": "0.1.17"
+    "grunt-node-webkit-builder": "0.1.17",
+    "grunt-contrib-sass": "~0.7.3"
   }
 }

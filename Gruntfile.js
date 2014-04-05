@@ -1,5 +1,11 @@
 module.exports = function(grunt) {
   grunt.initConfig({
+    sass: {
+      main: {
+        files: { 'style/main.css': ['style/main.scss', 'style/helpers.scss'] }
+      }
+    },
+
     nodewebkit: {
       options: {
         version: '0.9.2',
@@ -12,6 +18,7 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-node-webkit-builder');
+  grunt.loadNpmTasks('grunt-contrib-sass');
 
-  grunt.registerTask('default', 'nodewebkit');
+  grunt.registerTask('default', ['sass', 'nodewebkit']);
 };
