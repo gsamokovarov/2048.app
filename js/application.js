@@ -13,6 +13,8 @@ function Application() {
     click: function() { this.gameManager.restart(); }.bind(this)
   }));
 
+  gameMenu.append(new gui.MenuItem({ type: 'separator' }));
+
   gameMenu.append(new gui.MenuItem({
     label: 'Quit',
     click: function() { window.close() }
