@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
   grunt.initConfig({
     sass: {
+      options: { bundleExec: true },
       main: {
         files: { 'style/main.css': ['style/main.scss', 'style/helpers.scss'] }
       }

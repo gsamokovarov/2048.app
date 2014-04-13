@@ -1,1 +1,1 @@
-![screenshot](https://raw.github.com/gsamokovarov/2048.app/master/.screenshot.png)
+![screenshot](https://raw.github.com/gsamokovarov/2048.app/master/.screenshot.png)A desktop application of [2048] for your Mac.## BuildRun `make install` and 2048.app should end up in your `/Applications` folder.  [2048]: https://github.com/gabrielecirulli/2048 
